@@ -18,7 +18,9 @@ WriteMakefile1(
       q{Class::Accessor::Fast} => 0,
       q{Test::More}            => 0,
     },
-    MAN3PODS            => { },
+    MAN3PODS          => {
+      'lib/ANSI/Heatmap.pm' => 'blib/man3/ANSI::Heatmap.3',
+    },
     dist                => { COMPRESS => q{gzip -9f}, SUFFIX => q{gz}, },
     clean               => { FILES    => q{ANSI-Heatmap-*} },
 );
@@ -49,8 +51,6 @@ sub WriteMakefile1 {
     delete $params{AUTHOR}             if $] < 5.005;
     delete $params{ABSTRACT_FROM}      if $] < 5.005;
     delete $params{BINARY_LOCATION}    if $] < 5.005;
-
-    delete $params{MAN3PODS}->{'README.pod'};
 
     WriteMakefile(%params);
 }

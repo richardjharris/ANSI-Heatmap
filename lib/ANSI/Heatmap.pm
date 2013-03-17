@@ -4,7 +4,7 @@ package ANSI::Heatmap;
 use strict;
 use warnings;
 
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 
 use overload '""' => 'to_string';
 use Carp;
