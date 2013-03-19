@@ -1,0 +1,11 @@
+Revision history for ANSI::Heatmap
+
+0.3
+    - Fix typo in POD
+    - Remove unnecessary Data::Dump dependency in basic.t
+
+0.2
+    - Build man3 pages
+
+0.1
+    - Initial release.

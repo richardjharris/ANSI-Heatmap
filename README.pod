@@ -1,6 +1,6 @@
 =head1 NAME
 
-ANSI::Heatmaps - render heatmaps to your terminal
+ANSI::Heatmap - render heatmaps to your terminal
 
 =head1 SYNOPSIS
 

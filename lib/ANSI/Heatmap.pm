@@ -4,7 +4,7 @@ package ANSI::Heatmap;
 use strict;
 use warnings;
 
-our $VERSION = 0.2;
+our $VERSION = 0.3;
 
 use overload '""' => 'to_string';
 use Carp;
@@ -214,7 +214,7 @@ sub _swatch_lookup {
 
 =head1 NAME
 
-ANSI::Heatmaps - render heatmaps to your terminal
+ANSI::Heatmap - render heatmaps to your terminal
 
 =head1 SYNOPSIS
 

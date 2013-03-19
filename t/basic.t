@@ -2,7 +2,6 @@ use Test::More tests => 16;
 use strict;
 use warnings;
 
-use Data::Dump qw(dump);
 use ANSI::Heatmap;
 
 my $map = ANSI::Heatmap->new;
